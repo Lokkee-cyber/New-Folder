@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material";
-import reactImg from '../assets/react.png';
-import React from '../assets/react.png';
+import teamMember1 from '../assets/react.png';
+import teamMember2 from '../assets/react.png';
 
 export default function About() {
   return (
@@ -40,7 +40,7 @@ export default function About() {
         <Grid item xs={16} md={6} sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
           <Box
             component="img"
-            src={reactImg}
+            src={teamMember1}
             alt="Team Member"
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
@@ -50,7 +50,7 @@ export default function About() {
         <Grid item xs={16} md={6}  sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
            <Box
             component="img"
-            src={React}
+            src={teamMember2}
             alt="Team Member"
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
@@ -60,7 +60,7 @@ export default function About() {
         <Grid item xs={16} md={6} sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
           <Box
             component="img"
-            src={React}
+            src={teamMember2}
             alt="Team Member"
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
