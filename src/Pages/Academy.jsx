@@ -188,8 +188,8 @@ export default function Academy() {
               backgroundColor: '#141452ff',
               color: 'white',
               fontSize: { xs: '0.5rem', md: '2rem' },
-              padding: { xs: 0.6, md: 2 },
-              ml: { xs: 0.5, md: 10, sm: 5 },
+              padding: { xs: 0.4, md: 2 },
+              ml: { xs: 0.2, md: 10, sm: 5 },
               transition: 'all 0.3s ease',
               '&:hover': {
                 backgroundColor: '#1f1e8aff',
@@ -211,7 +211,7 @@ export default function Academy() {
           >
             <Card
               sx={{
-                width: { xs: '200px', sm: '400px', md: '500px' },
+                width: { xs: '240px', sm: '400px', md: '500px' },
                 height: { xs: '400px', sm: '500px', md: '600px' },
                 display: 'flex',
                 flexDirection: 'column',
@@ -326,8 +326,8 @@ export default function Academy() {
               backgroundColor: '#141452ff',
               color: 'white',
               fontSize: { xs: '0.5rem', md: '2rem' },
-              padding: { xs: 0.6, md: 2 },
-              mr: { xs: 0.5, md: 10, sm: 5 },
+              padding: { xs: 0.4, md: 2 },
+              mr: { xs: 0.2, md: 10, sm: 5 },
               transition: 'all 0.3s ease',
               '&:hover': {
                 backgroundColor: '#1f1e8aff',
