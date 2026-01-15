@@ -1,20 +1,50 @@
-# React + Vite
+# My React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with Vite, React Router, and Material-UI.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js 18+ and npm
 
-## React Compiler
+### Installation
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+```bash
+npm install
+```
 
-Note: This will impact Vite dev & build performances.
+### Development
 
-## Expanding the ESLint configuration
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# New-Folder
-# New-Folder
+The app will be available at `http://localhost:5173`
+
+### Build
+
+```bash
+npm run build
+```
+
+This generates an optimized production build in the `dist/` folder.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Deployment to Vercel
+
+1. Push your repository to GitHub
+2. Connect your GitHub repository to Vercel
+3. Vercel will automatically detect the Vite configuration and deploy
+
+## Technologies
+
+- **React 19** - UI library
+- **Vite** - Build tool
+- **React Router v7** - Client-side routing
+- **Material-UI** - Component library
+- **Emotion** - CSS-in-JS styling
