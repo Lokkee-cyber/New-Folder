@@ -9,7 +9,7 @@ import Academy from "./Pages/Academy";
 
 function App() {
   return (
-    <Router basename="/S-passion-website">
+    <Router basename="/">
       <Routes>
         {/* All pages use Layout */}
         <Route path="/" element={<Layout />}>
