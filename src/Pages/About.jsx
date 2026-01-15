@@ -2,11 +2,11 @@ import { Box, Grid, Typography } from "@mui/material";
 
 export default function About() {
   return (
-    <Box  sx={{ p: 3, margin: '0 auto',
+    <Box  sx={{ p: 3, margin: 'auto',
       bgcolor: '#f0f8ff',
         background: 'linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%)'
      }} md={{ p: 1, mt: 3, maxWidth: '720px' }}>
-      <Box maxWidth={'1080px'}>
+      <Box maxWidth={'1080px'} sx={{ color: '#141452ff' }}>
         <h1>About Us</h1>
       <p>Welcome to S-Passion! We are dedicated to providing top-notch computer services, training, and products to help you stay ahead in the digital world. Our mission is to empower individuals and businesses with the knowledge and tools they need to succeed in today's technology-driven environment.</p>
       <p>At S-Passion, we believe that technology is a powerful enabler of growth and innovation. Whether you're looking to enhance your computer skills through our comprehensive training programs, seeking reliable repair services, or in need of the latest computer products, we've got you covered.</p>

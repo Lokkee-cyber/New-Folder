@@ -122,6 +122,7 @@ export default function Home() {
             <Grid item xs={12} sm={6} md={6} key={index}>
               <Box sx={{ 
                 p: { xs: 1.5, sm: 2, md: 2.5 }, 
+                mb: { xs: 4, sm: 5, md: 6 },
                 border: '1px solid #ddd', 
                 borderRadius: 2,
                 bgcolor: 'rgba(255,255,255,0.6)',
