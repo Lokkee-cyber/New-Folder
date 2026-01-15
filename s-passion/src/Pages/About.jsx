@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material";
-import teamMember1 from '../assets/react.png';
-import teamMember2 from '../assets/react.png';
+import teamMember1 from '../../assets/react.png';
+import teamMember2 from '../../assets/react.png';
 
 export default function About() {
   return (
