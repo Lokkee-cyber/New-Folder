@@ -1,6 +1,4 @@
 import { Box, Grid, Typography } from "@mui/material";
-import teamMember1 from '../../assets/react.png';
-import teamMember2 from '../../assets/react.png';
 
 export default function About() {
   return (
@@ -39,9 +37,7 @@ export default function About() {
         
         <Grid item xs={16} md={6} sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
           <Box
-            component="img"
-            src={teamMember1}
-            alt="Team Member"
+            
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
           <Typography variant="h6" sx={{textAlign: 'center'}}>John Doe</Typography>
@@ -49,9 +45,7 @@ export default function About() {
         </Grid>
         <Grid item xs={16} md={6}  sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
            <Box
-            component="img"
-            src={teamMember2}
-            alt="Team Member"
+            
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
           <Typography variant="h6" sx={{textAlign: 'center'}}>Jane Smith</Typography>
@@ -59,9 +53,6 @@ export default function About() {
         </Grid>
         <Grid item xs={16} md={6} sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
           <Box
-            component="img"
-            src={teamMember2}
-            alt="Team Member"
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
           <Typography variant="h6"  sx={{textAlign: 'center'}}>Mike Johnson</Typography>
