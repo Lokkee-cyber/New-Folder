@@ -2,11 +2,11 @@ import { Box, Grid, Typography } from "@mui/material";
 
 export default function About() {
   return (
-    <Box  sx={{ p: 3, margin: 'auto',
+    <Box  sx={{ p: 2, margin: 'auto',
       bgcolor: '#f0f8ff',
         background: 'linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%)'
      }} md={{ p: 1, mt: 3, maxWidth: '720px' }}>
-      <Box maxWidth={'1080px'} sx={{ color: '#141452ff' }}>
+      <Box maxWidth={'1080px'} sx={{ color: '#141452ff', width: { xs: '1080px', sm: '180px', md: '1080px' } }}>
         <h1>About Us</h1>
       <p>Welcome to S-Passion! We are dedicated to providing top-notch computer services, training, and products to help you stay ahead in the digital world. Our mission is to empower individuals and businesses with the knowledge and tools they need to succeed in today's technology-driven environment.</p>
       <p>At S-Passion, we believe that technology is a powerful enabler of growth and innovation. Whether you're looking to enhance your computer skills through our comprehensive training programs, seeking reliable repair services, or in need of the latest computer products, we've got you covered.</p>
@@ -30,7 +30,7 @@ export default function About() {
       </Typography>
       </Box>
 
-      <Typography variant="h4" sx={{ mt: 4, mb: 2, textAlign: 'center' }}>
+      <Typography variant="h4" sx={{ mt: 4, mb: 2, textAlign: 'center', m: 'auto' }}>
         Meet the Team
       </Typography>
       <Grid container spacing={4} sx={{ mt: 4 }}>

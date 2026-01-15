@@ -117,12 +117,12 @@ export default function Home() {
         </Typography>
 
         {/* Features Grid */}
-        <Grid container spacing={{ xs: 2, sm: 2.5, md: 3 }} sx={{ mt: { xs: 2, sm: 3, md: 4 } }}>
+        <Grid container spacing={{ xs: 0.9, sm: 1.5, md: 3 }} sx={{ mt: { xs: 2, sm: 3, md: 4 }, alignItems: 'center', justifyContent: 'center' }}>
           {features.map((feature, index) => (
             <Grid item xs={12} sm={6} md={6} key={index}>
               <Box sx={{ 
                 p: { xs: 1.5, sm: 2, md: 2.5 }, 
-                mb: { xs: 4, sm: 5, md: 6 },
+                mb: { xs: 0.5, sm: 0.8, md: 1 },
                 border: '1px solid #ddd', 
                 borderRadius: 2,
                 bgcolor: 'rgba(255,255,255,0.6)',
@@ -141,9 +141,10 @@ export default function Home() {
                   variant="h6" 
                   sx={{ 
                     mb: 1.5, 
-                    fontSize: { xs: '0.95rem', sm: '1.05rem', md: '1.15rem' },
-                    fontWeight: 600,
-                    color: '#141452ff'
+                    fontSize: { xs: '1.2rem', sm: '1.35rem', md: '1.55rem' },
+                    fontWeight: 800,
+                    color: '#141452ff',
+                    textAlign: 'center'
                   }}>
                   {feature.title}
                 </Typography>
@@ -167,11 +168,12 @@ export default function Home() {
                   sx={{ 
                     textTransform: 'none', 
                     fontSize: { xs: '0.8rem', sm: '0.85rem', md: '0.9rem' },
-                    color: '#141452ff',
+                    color: 'white',
                     borderColor: '#141452ff',
+                    bgcolor: '#141452ff',
                     '&:hover': {
-                      bgcolor: '#141452ff',
-                      color: 'white',
+                      bgcolor: 'white',
+                      color: '#141452ff',
                       borderColor: '#141452ff'
                     }
                   }}
