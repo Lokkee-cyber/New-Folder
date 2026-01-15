@@ -187,8 +187,8 @@ export default function Academy() {
             sx={{
               backgroundColor: '#141452ff',
               color: 'white',
-              fontSize: '2rem',
-              padding: 2,
+              fontSize: { xs: '0.7rem', md: '2rem' },
+              padding: { xs: 0.6, md: 2 },
               ml: { xs: 1, md: 10, sm: 5 },
               transition: 'all 0.3s ease',
               '&:hover': {
@@ -211,8 +211,8 @@ export default function Academy() {
           >
             <Card
               sx={{
-                width: { xs: '100px', sm: '400px', md: '500px' },
-                height: { xs: '190px', sm: '380px', md: '400px' },
+                width: { xs: '260px', sm: '400px', md: '500px' },
+                height: { xs: '400px', sm: '500px', md: '600px' },
                 display: 'flex',
                 flexDirection: 'column',
                 position: 'relative',
@@ -325,8 +325,8 @@ export default function Academy() {
             sx={{
               backgroundColor: '#141452ff',
               color: 'white',
-              fontSize: '2rem',
-              padding: 2,
+              fontSize: { xs: '0.7rem', md: '2rem' },
+              padding: { xs: 0.6, md: 2 },
               mr: 10,
               transition: 'all 0.3s ease',
               '&:hover': {
@@ -397,12 +397,11 @@ export default function Academy() {
           Contact us today to start your learning journey. Our team is ready to help you choose the perfect course.
         </Typography>
 
-        <Grid container spacing={3} justifyContent="center">
+        <Grid container spacing={3} justifyContent="center" sx={{ mb: { xs: 0.6, sm: 0.8, md: 1 } }}>
           {contactInfo.map((info, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
               <Card
                 sx={{
-                  mb: { xs: 0.6, sm: 0.8, md: 1 },
                   height: '100%',
                   textAlign: 'center',
                   padding: 3,
