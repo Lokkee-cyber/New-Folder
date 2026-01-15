@@ -7,10 +7,9 @@ export default function Shop() {
       minHeight: '100vh',
       bgcolor: '#f0f8ff',
       background: 'linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%)',
-      py: { xs: 2, sm: 3, md: 4 },
       overflow: 'hidden'
     }}>
-      <Container maxWidth="xl">
+      <Container >
         <Cards />
       </Container>
     </Box>

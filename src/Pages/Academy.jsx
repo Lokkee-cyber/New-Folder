@@ -211,9 +211,10 @@ export default function Academy() {
           >
             <Card
               sx={{
-                width: { xs: '240px', sm: '400px', md: '500px' },
-                height: { xs: '400px', sm: '500px', md: '600px' },
+                width: { xs: '130px', sm: '400px', md: '500px' },
+                height: { xs: '240px', sm: '500px', md: '600px' },
                 display: 'flex',
+                flexWrap: { xs: 'wrap', md: 'nowrap' },
                 flexDirection: 'column',
                 position: 'relative',
                 border: '1px solid #e0e0e0',
