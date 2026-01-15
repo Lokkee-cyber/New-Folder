@@ -104,7 +104,6 @@ const Navbar = () => {
                     background: 'none',
                     px: 2,
                     py: 1,
-                    borderRadius: 2,
                     fontSize: '1rem',
                     position: 'relative',
                     overflow: 'hidden',
