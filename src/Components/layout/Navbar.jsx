@@ -52,7 +52,6 @@ const Navbar = () => {
       sx={{
         background: 'linear-gradient(90deg, #ffffff 0%, #ffffff 100%)',
         color: '#152ac4ff',
-        borderRadius: 3,
         px: 0,
         py: 0.5,
       }}
