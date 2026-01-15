@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem
 import { Avatar } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { Link, useLocation } from 'react-router-dom';
-import React from '../../assets/react.png';
+import React from '../../assets/react.PNG';
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
