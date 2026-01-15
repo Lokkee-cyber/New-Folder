@@ -189,7 +189,7 @@ export default function Academy() {
               color: 'white',
               fontSize: '2rem',
               padding: 2,
-              ml: 10,
+              ml: { xs: 1, md: 10, sm: 5 },
               transition: 'all 0.3s ease',
               '&:hover': {
                 backgroundColor: '#1f1e8aff',
@@ -211,8 +211,8 @@ export default function Academy() {
           >
             <Card
               sx={{
-                width: { xs: '400px', sm: '150px', md: '500px' },
-                height: { xs: '400px', sm: '100px', md: '400px' },
+                width: { xs: '100px', sm: '400px', md: '500px' },
+                height: { xs: '190px', sm: '380px', md: '400px' },
                 display: 'flex',
                 flexDirection: 'column',
                 position: 'relative',
@@ -402,6 +402,7 @@ export default function Academy() {
             <Grid item xs={12} sm={6} md={4} key={index}>
               <Card
                 sx={{
+                  mb: { xs: 0.6, sm: 0.8, md: 1 },
                   height: '100%',
                   textAlign: 'center',
                   padding: 3,
