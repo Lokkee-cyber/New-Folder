@@ -113,10 +113,11 @@ const ProductCard = ({ product, onAddToCart }) => {
 
   return (
     <Card
-      sx={{ width: { xs: '250px', sm: '180px', md: '250px' },
+      sx={{ width: { xs: '130px', sm: '180px', md: '250px' },
         maxWidth: 250,
-        height: '100%',
+        height: { xs: 240, sm: 400, md: 450 },
         display: 'flex',
+        flexWrap: { xs: 'wrap', sm: 'nowrap' },
         flexDirection: 'column',
         position: 'relative',
         border: '1px solid #bbb8b8ff',
