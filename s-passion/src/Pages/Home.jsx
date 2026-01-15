@@ -12,7 +12,6 @@ export default function Home() {
         justifyContent: 'center',
         alignItems: 'center',
         fontWeight: 'bold',
-        color: '#080808ff',
         mt: 10,
         color: '#141452ff',
         fontSize: { xs: '2.5rem', md: '3.5rem' },
