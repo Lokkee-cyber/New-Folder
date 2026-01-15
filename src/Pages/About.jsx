@@ -6,7 +6,7 @@ export default function About() {
       bgcolor: '#f0f8ff',
         background: 'linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%)'
      }} md={{ p: 1, mt: 3, maxWidth: '720px' }}>
-      <Box maxWidth={'1080px'} sx={{ color: '#141452ff', width: { xs: '310px', sm: '500px', md: '1080px' } }}>
+      <Box maxWidth={'1080px'} sx={{ color: '#141452ff', width: { xs: '330px', sm: '500px', md: '1080px' } }}>
         <h1>About Us</h1>
       <p>Welcome to S-Passion! We are dedicated to providing top-notch computer services, training, and products to help you stay ahead in the digital world. Our mission is to empower individuals and businesses with the knowledge and tools they need to succeed in today's technology-driven environment.</p>
       <p>At S-Passion, we believe that technology is a powerful enabler of growth and innovation. Whether you're looking to enhance your computer skills through our comprehensive training programs, seeking reliable repair services, or in need of the latest computer products, we've got you covered.</p>
@@ -29,13 +29,13 @@ export default function About() {
         Our vision at S-Passion is to be a leading provider of comprehensive computer solutions that inspire and empower individuals and organizations worldwide. We envision a future where technology is accessible to all, driving innovation, growth, and positive change. By continuously evolving our services and embracing emerging technologies, we aim to create a connected community where knowledge and passion for technology flourish.
       </Typography>
       </Box>
-
-      <Typography variant="h4" sx={{ mt: 4, mb: 2, textAlign: 'center', m: 'auto' }}>
+   <hr />
+      <Typography variant="h4" sx={{ mt: 4, mb: 2, textAlign: 'center', m: 'auto', color: '#141452ff' }}>
         Meet the Team
       </Typography>
       <Grid container spacing={4} sx={{ mt: 4 }}>
         
-        <Grid item xs={16} md={6} sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
+        <Grid item xs={16} md={6} sx={{bgcolor: 'rgb(12, 12, 12)', color: 'white', borderRadius: 3, p:2}}>
           <Box
             
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
@@ -43,7 +43,7 @@ export default function About() {
           <Typography variant="h6" sx={{textAlign: 'center'}}>John Doe</Typography>
           <Typography variant="body2" sx={{textAlign: 'center'}}>Founder & CEO</Typography>
         </Grid>
-        <Grid item xs={16} md={6}  sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
+        <Grid item xs={16} md={6}  sx={{bgcolor: 'rgb(12, 12, 12)', color: 'white', borderRadius: 3, p:2}}>
            <Box
             
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
@@ -51,7 +51,7 @@ export default function About() {
           <Typography variant="h6" sx={{textAlign: 'center'}}>Jane Smith</Typography>
           <Typography variant="body2" sx={{textAlign: 'center'}}>Chief Technology Officer</Typography>
         </Grid>
-        <Grid item xs={16} md={6} sx={{bgcolor: '#d8d2d2ff', borderRadius: 3, p:2}}>
+        <Grid item xs={16} md={6} sx={{bgcolor: 'rgb(12, 12, 12)', color: 'white', borderRadius: 3, p:2}}>
           <Box
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>

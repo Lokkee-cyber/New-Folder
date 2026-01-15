@@ -211,7 +211,7 @@ export default function Academy() {
           >
             <Card
               sx={{
-                width: { xs: '20px', sm: '400px', md: '500px' },
+                width: { xs: '200px', sm: '400px', md: '500px' },
                 height: { xs: '400px', sm: '500px', md: '600px' },
                 display: 'flex',
                 flexDirection: 'column',
