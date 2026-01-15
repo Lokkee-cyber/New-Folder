@@ -1,5 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material";
 import reactImg from '../assets/react.png';
+import React from '../assets/react.png';
 
 export default function About() {
   return (
