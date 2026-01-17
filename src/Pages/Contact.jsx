@@ -86,7 +86,8 @@ const Contact = () => {
     {
       icon: <LocationOn color="primary" />,
       title: 'Ilorin',
-      value: 'Ilorin, Nigeria'
+      value: 'Ilorin, Nigeria',
+      link: 'https://maps.app.goo.gl/K2uuQFxuYMs8DRNk9'
     }
   ];
 
@@ -139,7 +140,7 @@ const Contact = () => {
       <Container>
         
           <Box sx={{ textAlign: 'center', mb: 6 }}>
-            <Typography variant="h3" component="h1" gutterBottom sx={{ color: '#686772ff', fontWeight: 'bold', textShadow: '2px 2px 4px rgba(25, 118, 210, 0.1)' }}>
+            <Typography variant="h3" component="h1" gutterBottom sx={{ color: 'rgb(16, 12, 103)', fontWeight: 'bold', textShadow: '2px 2px 4px rgba(25, 118, 210, 0.1)' }}>
               Get In Touch
             </Typography>
             <Typography variant="subtitle1" color="text.secondary">
@@ -158,7 +159,7 @@ const Contact = () => {
                       sx={{
                         mb: 2,
                         display: 'flex',
-                        background: '#9897a9ff',
+                        background: 'rgb(16, 12, 103)',
                         border: '1px solid rgba(25, 118, 210, 0.1)',
                         boxShadow: '0 4px 12px rgba(25, 118, 210, 0.08)',
                         transition: 'all 0.3s ease-in-out',
@@ -172,7 +173,7 @@ const Contact = () => {
                       <CardContent>
                         <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                           {info.icon}
-                          <Typography variant="h6" sx={{ ml: 1, color:'#9897a9ff', fontWeight: 600 }}>
+                          <Typography variant="h6" sx={{ ml: 1, color:'rgb(251, 251, 251)', fontWeight: 600 }}>
                             {info.title}
                           </Typography>
                         </Box>
@@ -184,7 +185,7 @@ const Contact = () => {
                               textDecoration: 'none',
                               color: 'white',
                               '&:hover': {
-                                color: '#303031ff',
+                                color: 'rgb(250, 250, 255)',
                               },
                             }}
                           >
@@ -200,8 +201,8 @@ const Contact = () => {
                   ))}
                 </Box>
                 <Paper elevation={3} sx={{ p: 3, textAlign: 'center', background: 'linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%)', border: '1px solid rgba(25, 118, 210, 0.1)' }}>
-                  <Typography variant="h4" gutterBottom sx={{ color: '#9897a9ff', fontWeight: 900 }}>
-                    Follow Me
+                  <Typography variant="h4" gutterBottom sx={{ color: 'rgb(16, 12, 103)', fontWeight: 900 }}>
+                    Follow Us
                   </Typography>
                   <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
                     {socialLinks.map((social) => (
@@ -212,7 +213,7 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         aria-label={social.label}
                         sx={{
-                          bgcolor: '#727189ff',
+                          bgcolor: 'rgb(16, 12, 103)',
                           color: '#f6f6f9ff',
                           '&:hover': {
                             color: '#1565c0',
@@ -283,12 +284,12 @@ const Contact = () => {
                           endIcon={<Send />}
                           fullWidth
                           sx={{
-                            bgcolor: '#4f4f53ff',
+                            bgcolor: 'rgb(16, 12, 103)',
                             '&:hover': {
-                              color: '#2f2f32ff',
+                              color: 'rgb(16, 12, 103)',
                               bgcolor: '#f6f8faff',
                               transform: 'translateY(-1px)',
-                              border: '2px solid #4d4d51ff',
+                              border: '2px solid rgb(16, 12, 103)',
                               boxShadow: '0 6px 12px rgba(25, 118, 210, 0.2)'
                             },
                             

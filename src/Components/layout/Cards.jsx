@@ -11,7 +11,7 @@ import SearchIcon from "@mui/icons-material/Search";
 const productsData = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1588872657840-790ff3bde08c?w=400&h=400&fit=crop',
+    image: 'https://marketmagazinenews.com/wp-content/uploads/2024/12/best-laptops-20240516-medium-585x562.jpg',
     title: 'High-Performance Laptop',
     price: 999.99,
     originalPrice: 1299.99,
@@ -35,7 +35,7 @@ const productsData = [
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1587829191301-72d440643117?w=400&h=400&fit=crop',
+    image: 'https://media.prod.bunnings.com.au/api/public/content/e096e326a32b4f98a26b8297dd80635b?v=62ca059f',
     title: 'Mechanical Gaming Keyboard',
     price: 89.99,
     originalPrice: 149.99,
@@ -47,7 +47,7 @@ const productsData = [
   },
   {
     id: 4,
-    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&h=400&fit=crop',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.Qn2at65-XKFy75wHQ_N4jwHaHa?w=1200&h=1200&rs=1&pid=ImgDetMain&o=7&rm=3',
     title: '4K Ultra HD Monitor',
     price: 399.99,
     originalPrice: 599.99,
@@ -83,7 +83,7 @@ const productsData = [
   },
   {
     id: 7,
-    image: 'https://images.unsplash.com/photo-1606933248051-5ce98adc3b27?w=400&h=400&fit=crop',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.0ZhWXRTdGmEQ_tCE4Kzs1gHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3',
     title: 'USB-C Cable (2m)',
     price: 12.99,
     originalPrice: 24.99,
@@ -95,7 +95,7 @@ const productsData = [
   },
   {
     id: 8,
-    image: 'https://images.unsplash.com/photo-1598901881269-14ca0b2a5f43?w=400&h=400&fit=crop',
+    image: 'https://tse2.mm.bing.net/th/id/OIP.zScGfex9wzkk9dHi9SWZ0AHaHp?rs=1&pid=ImgDetMain&o=7&rm=3',
     title: 'HD Webcam with Microphone',
     price: 79.99,
     originalPrice: 129.99,
@@ -113,7 +113,7 @@ const ProductCard = ({ product, onAddToCart }) => {
 
   return (
     <Card
-      sx={{ width: { xs: '250px', sm: '180px', md: '250px' },
+      sx={{ 
         maxWidth: 250,
         height: '100%',
         display: 'flex',
@@ -155,8 +155,8 @@ const ProductCard = ({ product, onAddToCart }) => {
       {/* Product Image */}
       <Box
         sx={{
-          width: '100%',
-          height: 200,
+          width: { xs: '150', md: '250px' },
+          height: { xs: '150px', md: '250px' },
           backgroundColor: '#f6f3f3ff',
           display: 'flex',
           alignItems: 'center',
@@ -517,7 +517,7 @@ export default function Cards() {
           </Box>
         </Box>
       </Box>
-
+          
       {/* Main Content */}
       <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
         {/* Header with Title */}
@@ -704,7 +704,7 @@ export default function Cards() {
                 sx={{
                   display: 'grid',
                   gridTemplateColumns: {
-                    xs: '1fr',
+                    xs: 'repeat(2, 1fr)',
                     sm: 'repeat(2, 1fr)',
                     md: 'repeat(3, 1fr)',
                     lg: 'repeat(4, 1fr)',

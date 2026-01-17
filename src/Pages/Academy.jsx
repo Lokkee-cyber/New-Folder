@@ -18,7 +18,8 @@ const contactInfo = [
     {
       icon: <LocationOn color="primary" />,
       title: 'Ilorin',
-      value: 'Ilorin, Nigeria'
+      value: 'Ilorin, Nigeria',
+      link: 'https://maps.app.goo.gl/K2uuQFxuYMs8DRNk9'
     }
   ];
 
@@ -185,15 +186,17 @@ export default function Academy() {
           <IconButton
             onClick={handlePrevious}
             sx={{
-              backgroundColor: '#141452ff',
+              backgroundColor: 'rgb(12, 134, 26)',
               color: 'white',
               fontSize: { xs: '0.5rem', md: '2rem' },
               padding: { xs: 0.4, md: 2 },
               ml: { xs: 0.2, md: 10, sm: 5 },
               transition: 'all 0.3s ease',
               '&:hover': {
-                backgroundColor: '#1f1e8aff',
+                backgroundColor: 'white',
                 transform: 'scale(1.1)',
+                color: 'green',
+                border: '1px solid rgb(12, 134, 26)',
               },
             }}
           >
@@ -212,7 +215,7 @@ export default function Academy() {
             <Card
               sx={{
                 width: { xs: '240px', sm: '400px', md: '500px' },
-                height: { xs: '400px', sm: '500px', md: '600px' },
+                height: { xs: '400px', sm: '400px', md: '400px' },
                 display: 'flex',
                 flexDirection: 'column',
                 position: 'relative',
@@ -252,26 +255,20 @@ export default function Academy() {
                 <Typography variant="body2" sx={{ opacity: 0.9, fontSize: '0.9rem' }}>
                   {courses[currentSlide].duration}
                 </Typography>
-              </Box>
-
-              {/* Course Content */}
-              <CardContent sx={{ flex: 1, padding: 2, overflowY: 'auto' }}>
-                {/* Price Section */}
-                <Box sx={{ mb: 2, pb: 2, borderBottom: '2px solid #f0f0f0' }}>
-                  <Typography variant="caption" sx={{ color: '#666', fontSize: '0.8rem' }}>
-                    COURSE FEE
-                  </Typography>
-                  <Typography
+                <Typography
                     sx={{
                       fontSize: '28px',
                       fontWeight: 'bold',
-                      color: '#B12704',
+                      color: '#2dc909',
                       mt: 0.5,
                     }}
-                  >
-                    {courses[currentSlide].displayPrice}
+                  >{courses[currentSlide].displayPrice}
                   </Typography>
-                </Box>
+              </Box>
+
+              {/* Course Content */}
+              <CardContent sx={{ flex: 1, padding: 0.5, overflowY: 'auto' }}>
+               
 
                 {/* Course Details */}
                 <Typography variant="subtitle2" sx={{ fontWeight: 700, mb: 1.5, color: '#141452ff' }}>
@@ -323,15 +320,17 @@ export default function Academy() {
           <IconButton
             onClick={handleNext}
             sx={{
-              backgroundColor: '#141452ff',
+              backgroundColor: 'rgb(12, 134, 26)',
               color: 'white',
               fontSize: { xs: '0.5rem', md: '2rem' },
               padding: { xs: 0.4, md: 2 },
               mr: { xs: 0.2, md: 10, sm: 5 },
               transition: 'all 0.3s ease',
               '&:hover': {
-                backgroundColor: '#1f1e8aff',
+                backgroundColor: 'white',
                 transform: 'scale(1.1)',
+                color: 'green',
+                border: '1px solid rgb(12, 134, 26)',
               },
             }}
           >
