@@ -40,7 +40,7 @@ export default function About() {
             
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
-          <Typography variant="h6" sx={{textAlign: 'center'}}>John Doe</Typography>
+          <Typography variant="h6" sx={{textAlign: 'center'}}>[]</Typography>
           <Typography variant="body2" sx={{textAlign: 'center'}}>Founder & CEO</Typography>
         </Grid>
         <Grid item xs={16} md={6}  sx={{bgcolor: 'rgb(12, 12, 12)', color: 'white', borderRadius: 3, p:2}}>
@@ -48,14 +48,14 @@ export default function About() {
             
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
-          <Typography variant="h6" sx={{textAlign: 'center'}}>Jane Smith</Typography>
+          <Typography variant="h6" sx={{textAlign: 'center'}}>[]</Typography>
           <Typography variant="body2" sx={{textAlign: 'center'}}>Chief Technology Officer</Typography>
         </Grid>
         <Grid item xs={16} md={6} sx={{bgcolor: 'rgb(12, 12, 12)', color: 'white', borderRadius: 3, p:2}}>
           <Box
             sx={{ width: 250, height: 150, borderRadius: '50%' }}
             ></Box>
-          <Typography variant="h6"  sx={{textAlign: 'center'}}>Mike Johnson</Typography>
+          <Typography variant="h6"  sx={{textAlign: 'center'}}>[]</Typography>
           <Typography variant="body2" sx={{textAlign: 'center'}}>Head of Marketing</Typography>
         </Grid>
       </Grid>
